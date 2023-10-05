@@ -1,0 +1,63 @@
+-------------------------------------------------------------------------
+                        Group Details and Instructions
+-------------------------------------------------------------------------
+
+Group Members:
+- Anand Kumar (ID: 2022H1120277P)
+- Suraj Pammi (ID: 2022H1120299P)
+
+-------------------------------------------------------------------------
+                        Server and Client Code
+-------------------------------------------------------------------------
+
+This package contains code for a simulated battlefield scenario where missile strikes occur. The code includes both the server and client components.
+
+-------------------------------------------------------------------------
+                        Instructions for Running the Code
+-------------------------------------------------------------------------
+
+1. Requirements:
+   - Python 3.x
+   - xmlrpc (Python Standard Library)
+
+2. Setting Up the Server:
+   - Ensure you have Python 3.x installed on your system.
+   - Open a terminal/command prompt.
+   - Navigate to the directory containing the server code.
+   - Run the server.py file using the following command:
+     ```
+     python server.py
+     ```
+   - The server will start and wait for the initial setup.
+
+3. Setting Up the Client:
+   - Ensure you have Python 3.x installed on your system.
+   - Open a terminal/command prompt.
+   - Navigate to the directory containing the client.py file.
+   - Run the client.py file using the following command:
+     ```
+     python client.py
+     ```
+   - The client will connect to the server.
+
+4. Observing the Simulation:
+   - Once the server and client are running, the simulation will begin.
+   - You will see missile strikes approaching and their impact.
+   - Soldiers' positions and statuses will be displayed.
+   - The commander may change if the previous one dies.
+
+5. Ending the Simulation:
+   - The simulation will run for a specific duration (defined in the code).
+   - After completion, the code will determine if the battle was won or lost.
+
+-------------------------------------------------------------------------
+                           Important Notes
+-------------------------------------------------------------------------
+
+- The code assumes a simulated battlefield scenario. Actual soldier data is not included in this code and is represented as placeholders.
+- The simulation duration and other parameters can be adjusted in the code (config.py).
+- The commander may change during the simulation if the previous one dies.
+
+-------------------------------------------------------------------------
+                          END
+-------------------------------------------------------------------------
